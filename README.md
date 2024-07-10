@@ -2,21 +2,17 @@
 This repository is about project of computational neuroscience 
 
 ## 1.Problem statement
-  explain your goal of project
-
+spike detection
 ## 2.Related works
-  explores existing research and solutions related to your project
-
+ --
 ## 3.Proposed Method
-
+Specify spike shape, spike train, and spike statistics metrics
 
 ## 4.Implementation
 
 ### 4.1. Dataset
-Under this subsection, you'll find information about the dataset used for your project. It includes details about the dataset source,task, channels, and number of trials. 
-
+(https://crcns.org/data-sets/vc/pvc-1)
 ### 4.2. Model
-In this subsection, explain your model that you're goning to fit your dataset
-
+we use k-means & PCA for clustring spikes
 ### 4.3. Evaluate
-In the evaluation section, the methods and metrics used to assess the model's performance are detailed
+For evaluation we used Silhouette Scores for k-means and pca clustering
